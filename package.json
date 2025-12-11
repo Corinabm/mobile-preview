@@ -9,13 +9,14 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "mobile-preview.helloWorld",
-        "title": "Hello World"
+        "command": "mobile-preview.start",
+        "title": "Mobile Preview: Start",
+        "category": "Mobile Preview",
+        "icon": "$(device-mobile)"
       }
     ]
   },
