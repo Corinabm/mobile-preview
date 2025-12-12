@@ -3,12 +3,12 @@ import * as vscode from 'vscode';
 // Fonction appelée lors de l'activation de l'extension
 export function activate(context: vscode.ExtensionContext) {
 	// Confirmation de l'activation dans la console
-	console.log('Mobile Preview extension activated');
+	console.log('✅ Mobile Preview extension activated');
 
 	// Enregistrement de la commande "mobile-preview.start"
 	const disposable = vscode.commands.registerCommand('mobile-preview.start', async () => {
-		// Affichage d'une notification de bienvenue
-		await vscode.window.showInformationMessage('Mobile Preview - Hello World!');
+		// TODO: Implémenter la logique complète de l'extension
+		await vscode.window.showInformationMessage('🚀 Mobile Preview - Fonctionnalité en cours de développement');
 	});
 
 	// Ajout du disposable pour nettoyer la commande lors de la désactivation
