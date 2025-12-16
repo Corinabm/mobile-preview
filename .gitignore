@@ -3,3 +3,8 @@ dist
 node_modules
 .vscode-test/
 *.vsix
+
+# Cloudflared binaries (downloaded automatically by npm)
+cloudflared.exe
+cloudflared
+node_modules/cloudflared/bin/
